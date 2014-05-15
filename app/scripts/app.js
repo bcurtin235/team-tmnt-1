@@ -1,8 +1,8 @@
 'use strict';
 
-angular.module('tmntApp', [
-  'ui.router'
-]).config(function ($stateProvider, $urlRouterProvider) {
+angular.module('tmntApp', ['ui.router']).config(function ($stateProvider, $urlRouterProvider) {
+
+
     $urlRouterProvider.otherwise('/');
 
     $stateProvider.state('main', {
